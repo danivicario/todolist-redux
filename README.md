@@ -6,3 +6,5 @@ Install the project using
 
 Run the project using
 `npm start`
+
+<img src="https://raw.githubusercontent.com/danivicario/todolist-redux/master/branches.gif" alt="Branches" />
