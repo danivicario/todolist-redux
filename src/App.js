@@ -1,5 +1,4 @@
 import React from "react";
-import "./App.scss";
 import Task from "./Task";
 import store from "./reducers";
 import AllDoneTasks from "./allTasks";

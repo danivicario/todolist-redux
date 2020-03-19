@@ -1,0 +1,45 @@
+.task {
+  border: 1px solid black;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.8rem;
+  transition: all 0.75s;
+  cursor: pointer;
+  width: 100%;
+
+  .buttons {
+    margin: 0;
+    padding: 0;
+  }
+
+  &--dark {
+    background: black;
+    color: white;
+
+    &:hover {
+      background: #c00;
+    }
+  }
+
+  &--normal {
+    $nColor: rgba(#63cdda, 0.7);
+    background-color: $nColor;
+    color: black;
+
+    &:hover {
+      background: darken($nColor, 20);
+    }
+  }
+
+  &--true {
+    background-color: #999 !important;
+    color: white;
+    cursor: initial;
+
+    .task-data {
+      text-decoration: line-through;
+    }
+  }
+}

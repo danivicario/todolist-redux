@@ -1,0 +1,23 @@
+.App {
+  max-width: 100rem;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.task,
+.done-tasks {
+  margin: 0.5rem 0;
+  margin-top: 0;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  font-size: 1.8rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+  padding: 0.5rem 1rem;
+}

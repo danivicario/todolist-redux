@@ -1,5 +1,5 @@
 import React from "react";
-import "./Task.scss";
+import "./scss/Task.scss";
 import Moment from "react-moment";
 import store from "./reducers";
 
