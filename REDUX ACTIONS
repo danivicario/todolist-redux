@@ -1,0 +1,17 @@
+REDUX ACTIONS
+
+SET_AS_DONE
+SET_AS_UNDONE
+SET_ALL_AS_DONE
+
+class Task extends React.Component{
+
+	setAsDone() {
+		// payload ->  {id: 1244}
+		dispatch("SET_AS_DONE", {_id: "bc34832948432cc"})
+	}
+
+	render() {
+		return (<button onClick={() => this.setAsDone()}>Set as done</button>)
+	}
+}

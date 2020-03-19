@@ -17,6 +17,7 @@ class Task extends React.Component {
     this.theClass = this.props.className || "normal";
   }
 
+  // ACTIONS Y DISPATCHER - CAJA AZUL Y MARRON DEL DIAGRAMA
   setTaskAsDone() {
     store.dispatch({ type: "SET_TASK_AS_DONE", id: this.props.id });
   }

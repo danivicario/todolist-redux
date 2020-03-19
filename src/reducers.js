@@ -1,5 +1,6 @@
 import { createStore } from "redux";
 
+// STORE - CAJA AMARILLA DIAGRAMA - PREPARACION
 let currentNewTask = 1;
 
 const initialState = {
@@ -11,10 +12,12 @@ const initialState = {
   }))
 };
 
+// STORE - CAJA AMARILLA DIAGRAMA
 const store = createStore((state = initialState, action) => {
   let tasks;
   let taskIndex;
 
+  // REDUCERS - CAJA VERDE DIAGRAMA
   switch (action.type) {
     case "CREATE_NEW_TASK":
       tasks = [...state.tasks];

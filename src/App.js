@@ -14,6 +14,7 @@ class App extends React.Component {
     });
   }
 
+  // ACTIONS - CAJA VERDE DIAGRAMA
   createNewTask() {
     store.dispatch({ state: this.state, type: "CREATE_NEW_TASK" });
   }
